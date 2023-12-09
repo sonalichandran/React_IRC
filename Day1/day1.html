@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  <link rel="stylesheet" href="C:\Users\sonal\OneDrive\Desktop\html\project\day1.css">
+</head>
+<body>
+    <form onsubmit="show()">
+        <div >
+            
+            <div class="container">
+        <span><h3 class="h">Registration Form</h3></span>
+<label for="">Name</label>
+<input type="text" name="username" id="username" class="i">
+<label for="">Email</label>
+<input type="email" name="email" id="email" class="i">
+<label for="">Phone Number</label>
+<input type="number" name="pn" id="pn" class="i">
+<label for="">Password</label>
+<input type="password" name="pw" id="pw" class="i">
+<label for="">Confirm Password</label>
+<input type="password" name="pw2" id="pw2" class="i">
+<label for="">D.O.B</label>
+<input type="datetime-local" name="" id="" class="i">
+<label for="">Age</label>
+<input type="number" name="" id="" class="i">
+<input type="submit" value="Register" class="btn">
+<!-- <button onclick="show2()" class="bb">Login</button> -->
+</div>
+</div>
+
+</form>
+<script>
+    function show()
+    {
+        let x=document.getElementById("pw").value;
+        let y=document.getElementById("pw2").value;
+        if(confirm("sure ?"))
+        {
+        
+        if(x==y)
+        {
+        alert("Registration successful!");
+        }
+        else{
+
+            alert("Unsuccessful");
+        }
+        }
+        
+        
+
+    }
+    // function show2()
+    // {
+    //     alert("Server is down due to technical issues");
+    // }
+</script>
+
+</body>
+</html>
