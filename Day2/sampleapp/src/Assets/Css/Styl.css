@@ -1,0 +1,124 @@
+body{
+    background-color: rgb(0, 0, 0);
+    padding-top: 200px; 
+    justify-content: center;
+    /* align-items: center; */
+    position: fixed;
+    display:flex;
+    
+    height:vh;
+    width:vw;
+    margin:0;
+}
+.input{
+    border-color: #F09819; 
+    background-color:black;
+    height: 40px;
+    width:300px;
+    border-radius: 9px;
+
+}
+h3{
+    color:#F09819;
+    font-size: x-large;
+    padding-left: 100px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.container
+{
+    /* padding-top: 200px; */
+    justify-content: center;
+    padding-right: 80px;
+    padding-left: 80px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    flex-direction: column;
+    display:flex;
+    gap:15px;
+    box-shadow:
+    0 0 13px #F09819,
+    0 0 13px #F09819,
+  0 0 13px#F09819,
+  0 0 13px #F09819;
+  border-radius:5px;
+  
+  
+}
+label
+{
+    color:#F09819;
+    font-size: large;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.hello{
+    
+    padding-top:30px;
+    padding-left: 115px;
+}
+.bb
+{
+    height:35px;
+    width:90px;
+    border-radius:7px;
+    font-size: large;
+    font-weight:800;
+    background-color: #F09819 ;
+    border: none;
+    font-weight:900rem;;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+
+}
+ul {
+    position: fixed;
+    top: 10px;
+    justify-content: right;
+    display: flex;
+    /* padding-left: 800px; */
+    gap:30px;
+    list-style: none;
+    
+}
+.aa1{
+    
+    /* padding:16%; */
+    text-decoration: none;
+   font-style: oblique;
+   font-weight: bolder;
+   color:black;
+   font-size:large;
+}
+.aa2{
+    
+    /* padding:10%; */
+    font-style: oblique;
+    font-weight: bolder;
+    text-decoration: none;
+    color:black;
+    font-size:large;
+}
+.iv{
+
+    background: #F09819;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #EDDE5D, #F09819);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #EDDE5D, #F09819); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+ height: 50px;
+ width: 1750px;
+ top:10px;
+ position: fixed;
+ padding-left:1300px;
+
+    
+}
+.tt
+{
+    padding-left: 530px;
+}
+
+ 
+
+
+
+
+
+

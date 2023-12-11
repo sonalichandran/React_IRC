@@ -1,68 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-  <link rel="stylesheet" href="C:\Users\sonal\OneDrive\Desktop\html\project\loginday1.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+<link rel="stylesheet" href="C:\Users\sonal\OneDrive\Desktop\html\project\loginday1.css">
 </head>
 
 <body>
+<div>
+    
+    <ul>
+        <li><a class="aa1" href="C:\Users\sonal\OneDrive\Desktop\html\project\day1login.html" >LOGIN</a></li>
+        <li><a  href="C:\Users\sonal\OneDrive\Desktop\html\project\day1.html">REGISTER</a></li>
+        
+        
+    </ul>
+</div>
+
+    
+<form onsubmit="show()">
     <div>
         
-        <ul>
-            <li><a style="text-decoration:none; color:white; background-color:blue; padding:16%;" href="C:\Users\sonal\OneDrive\Desktop\html\project\day1login.html" >LOGIN</a></li>
-            <li><a style="text-decoration:none; color:white; background-color: blue; padding:10%;" href="C:\Users\sonal\OneDrive\Desktop\html\project\day1.html">REGISTER</a></li>
-            
-            
-        </ul>
-    </div>
-   
-      
-    <form onsubmit="show()">
-        <div>
-            
-            <div class="container">
-        <span><h3 class="h">Login Page</h3></span>
+        <div class="container">
+    <h3 class="h">Login Page</h3>
 <label for="">Username</label>
 <input type="text" name="username" id="username" class="input">
 
 <label for="">Password</label>
 <input type="password" name="pw" id="pw" class="input">
 <div class="hello">
-    
-    <button onclick="show2()" class="bb">LOGIN</button> 
+
+<button onclick="show2()" class="bb">LOGIN</button> 
 </div>
 </div>
-</div>
+
 
 </form>
 <script>
-    function show()
+function show()
+{
+    let x=document.getElementById("pw").value;
+    let y="123";
+    if(confirm("sure ?"))
     {
-        let x=document.getElementById("pw").value;
-        let y="123";
-        if(confirm("sure ?"))
-        {
-        
-        if(x==y)
-        {
-        alert("Registration successful!");
-        }
-        else{
-
-            alert("Unsuccessful");
-        }
-        }
-        else
-        {
-            alert("failed");
-        }
-        
-        
-
+    
+    if(x==y)
+    {
+    alert("Registration successful!");
     }
-   
+    else{
+
+        alert("Unsuccessful");
+    }
+    }
+    else
+    {
+        alert("failed");
+    }
+    
+    
+
+}
+
 </script>
 
 </body>
