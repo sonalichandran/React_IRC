@@ -1,0 +1,90 @@
+.nav
+{
+    
+    
+    position: fixed;
+    
+}
+li{
+    list-style:none;
+    color:black;
+}
+.search
+{
+    top:26px;
+    left:350px;
+    position:fixed;
+}
+.searchbar
+{
+    
+    border-color:blue;
+    
+    height:33px;
+    width:500px;
+    
+}
+.searchbutton
+{
+    width:100px;
+  
+    background-color:blue;
+    color:white;
+    height:35px;
+    border-color:black;
+
+}
+.navBar
+{
+   
+    top:30px;
+    right:20px;
+   
+    position:fixed;
+    display:flex;
+    gap:20px;
+}
+ .navbutton
+{
+    background: #F09819;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #EDDE5D, #F09819);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #EDDE5D, #F09819); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    color:black;
+    width:100px;
+    font-weight: bolder;
+    
+} 
+.navbutton {
+    background-color: black;
+    height:37px;
+    color: black;
+    border: 2px solid black;
+   
+    font-size: 16px;
+    font-size: larger;
+    font-weight: bolder;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .navbutton:hover {
+    background-color: white;
+    color: white;
+  }
+  .content1
+{
+    top:0;
+    left:98;
+    position:fixed;
+    display:flex;
+    color:white;
+}
+h1{
+    top: 0;
+    left:100px;
+    position:fixed;
+    display:flex;
+}
+  
+

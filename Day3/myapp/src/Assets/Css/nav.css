@@ -1,32 +1,118 @@
-.hello
-{
-   
-   height: 2rem;
-   width: 98rem;
-   background-color: grey;
-   opacity: 90%;
-  align-items: center;
-   display:flex;
-   justify-content: center;
-   margin:0;
-   display: flex;
-
-   
-   
-   
-}
-a{
-
- column-gap: 20px;
-}
-body{
-    background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20200714/pngtree-modern-double-color-futuristic-neon-background-image_351866.jpg");
+.hello {
+    height: 3.5rem;
+    width: 98rem;
+    position: fixed;
+    top: 0;
+    background-color: black;
+    opacity: 60%;
+    padding-bottom: 4px;
+    justify-content: right;
+    display: flex;
+  }
+  
+  a {
+    gap: 20px;
+    padding-right: 50px;
+    padding-top: 20px;
+    color: white;
+    font-size: larger;
+    font-weight: 20px;
+    text-decoration: none;
+  }
+  
+  .back {
+    margin: 0;
+    background-image: url("https://media.cnn.com/api/v1/images/stellar/prod/230208091958-02-wildlife-photographer-of-the-year-peoples-choice.jpg?c=original&q=h_618,c_fill");
     background-repeat: no-repeat;
     background-size: cover;
-    margin:0;
-    height:100vh;
-    width:100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: visible;
+    display: flex;
+  }
+  
+  p {
+    padding-left: 860px;
+    padding-top: 200px;
+    font-size: 70px;
+  }
+  
+  h1 {
+    color: white;
+    padding-bottom: 10px;
+  }
+  
+  h2 {
+    color: white;
+  }
+  
+  h4 {
+    padding-left: 1070px;
+  }
+  
+  
+  .div1 {
+    padding-left: 1100px;
+  }
+  
+  .btn {
+    padding-left: 1000px;
+  }
+  
+  .foot {
+    background-color: black;
+    opacity: 85%;
+    height: 166px;
+    width: 100vw;
+    color: white;
+    bottom: 0;
+    left: 0;
+    position: fixed;
     display:flex;
-    overflow: hidden;
-    
-}
+  }
+  
+  .topic {
+    padding-right: 850px;
+    flex-direction: row;
+    gap: 20px;
+    display: flex;
+  }
+  
+  .mid {
+    flex-direction: column;
+    padding-bottom: 10px;
+    display: flex;
+  }
+  
+  .hi {
+    padding-top: 0px;
+  }
+  
+  .icon {
+    font-size: 2rem;
+    color: whitesmoke;
+    opacity: 100%;
+    gap: 20px;
+    padding-right: 20px;
+    padding-left: 100px;
+    padding-top: 30px;
+  }
+  
+  
+  .para {
+    color: white;
+  }
+  
+
+  body {
+    overflow-y: scroll;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+  }
+  .content
+  {
+    align-items: end;
+    background-color: white;
+  }

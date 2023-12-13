@@ -1,15 +1,26 @@
-function Nav(){
-    return ( 
-        <div className="hello">
-            <div>
+import React from 'react';
+import { FaCamera } from 'react-icons/fa';
 
+function Nav() {
+  return (
+    <div className="hello">
+        <div className="topic">
 
-        <a href="Home">Home</a>
-        <a href="Explore">Explore</a>
-        <a href="About">About</a>
-        <a href="Contact us">Contact us</a>
+      <h1>
+        <FaCamera />
+      </h1>
+      <h2>
+
+        WiLdLeNsCaPtUrEs 
+      </h2>
         </div>
-            </div>
-         )
+
+      <a href="Home">Home</a>
+      <a href="Explore">Explore</a>
+      <a href="About">Gallery</a>
+      <a href="Contact us">ContactUs</a>
+    </div>
+  );
 }
+
 export default Nav;

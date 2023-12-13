@@ -1,124 +1,146 @@
-body{
+body {
     background-color: rgb(0, 0, 0);
-    padding-top: 200px; 
+    padding-top: 95px;
     justify-content: center;
-    /* align-items: center; */
+    padding-left:400px;
     position: fixed;
-    display:flex;
-    
-    height:vh;
-    width:vw;
-    margin:0;
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding-right: 100px;
 }
-.input{
-    border-color: #F09819; 
-    background-color:black;
-    height: 40px;
-    width:300px;
-    border-radius: 9px;
 
+.input {
+    border-color: white; /* Change to white */
+    background-color: black;
+    height: 40px;
+    width: 300px;
+    border-radius: 9px;
+    color:white;
 }
-h3{
-    color:#F09819;
+
+h3 {
+    color: white; /* Change to white */
     font-size: x-large;
     padding-left: 100px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-.container
-{
-    /* padding-top: 200px; */
+
+.container {
     justify-content: center;
     padding-right: 80px;
-    padding-left: 80px;
+    padding-left: 120px;
     padding-bottom: 20px;
     padding-top: 20px;
     flex-direction: column;
-    display:flex;
-    gap:15px;
-    box-shadow:
-    0 0 13px #F09819,
-    0 0 13px #F09819,
-  0 0 13px#F09819,
-  0 0 13px #F09819;
-  border-radius:5px;
-  
-  
+    display: flex;
+    gap: 15px;
+    border-radius: 5px;
+    border: 2px solid white; /* Add a white border */
 }
-label
-{
-    color:#F09819;
-    font-size: large;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-.hello{
-    
-    padding-top:30px;
-    padding-left: 115px;
-}
-.bb
-{
-    height:35px;
-    width:90px;
-    border-radius:7px;
-    font-size: large;
-    font-weight:800;
-    background-color: #F09819 ;
-    border: none;
-    font-weight:900rem;;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    
 
+label {
+    color: white; /* Change to white */
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
+.hello {
+    padding-top: 30px;
+    padding-left: 60px;
+    gap:20px;
+    padding-right: 20px;
+    flex-direction: row;
+    display:flex;
+}
+
+.bb {
+    height: 35px;
+    width: 90px;
+    border-radius: 7px;
+    font-size: large;
+    font-weight: 800;
+    background-color: white; /* Change to white */
+    border: 2px solid white; /* Add a white border */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
 ul {
     position: fixed;
     top: 10px;
-    justify-content: right;
+    justify-content: right; /* Align to the right */
     display: flex;
-    /* padding-left: 800px; */
-    gap:30px;
+    gap: 30px;
     list-style: none;
-    
 }
-.aa1{
-    
-    /* padding:16%; */
+
+.aa1 {
     text-decoration: none;
-   font-style: oblique;
-   font-weight: bolder;
-   color:black;
-   font-size:large;
+    font-style: oblique;
+    font-weight: bolder;
+    color: white; /* Change to white */
+    font-size: large;
 }
-.aa2{
-    
-    /* padding:10%; */
+
+.aa2 {
     font-style: oblique;
     font-weight: bolder;
     text-decoration: none;
-    color:black;
-    font-size:large;
+    color: white; /* Change to white */
+    font-size: large;
 }
-.iv{
 
-    background: #F09819;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to bottom, #EDDE5D, #F09819);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to bottom, #EDDE5D, #F09819); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
- height: 50px;
- width: 1750px;
- top:10px;
- position: fixed;
- padding-left:1300px;
-
+.iv {
+    background: white; /* Change to white */
+    height: 50px;
+    width: 1750px;
+    top: 10px;
+    position: fixed;
+    padding-left: 100px;
+}
+.book-image
+{
+    top:0;
+  left:0;
+    position:fixed;
+    display:flex;
+     width: 700px;
+     height: 100vh;
+     margin:0;
     
 }
-.tt
-{
+
+/* .tt {
     padding-left: 530px;
+} */
+.bb {
+    height: 35px;
+    width: 90px;
+    background-color: white;
+    border: 2px solid white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: background-color 0.3s, color 0.3s; /* Add transition for smooth effect */
 }
 
- 
-
-
-
-
-
-
+.bb:hover {
+    background-color:blue; /* Change to your desired hover color */
+    color: white; /* Change to your desired hover text color */
+}
+h1{
+    color:white;
+}
+.left
+{
+    padding-right: 100px;
+    padding-bottom: 50px;;
+}
+.back
+{
+    font-weight: bolder;
+    background-color: blue;;
+    font-size: large;
+    height: 35px;
+    width: 90px;
+    border-radius: 7px;
+}

@@ -1,0 +1,95 @@
+.container1 {
+    top:130px;
+    height: 600px;
+    width: 776px;
+    background-color:black;
+    padding-left: 220px;
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+    gap: 15px;
+    position: fixed;
+    border-radius: 5px;
+  
+   
+}
+
+.container1:hover {
+    border-color: #F09819; /* Change to your desired hover border color */
+}
+body {
+    background-color: rgb(0, 0, 0);
+    
+   
+}
+.input {
+    border-color: white; /* Change to white */
+    background-color: black;
+    height: 40px;
+    width: 300px;
+    border-radius: 9px;
+    color:white;
+}
+label {
+    color: white; /* Change to white */
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.input:hover {
+    border-bottom: 2px solid #F09819; /* Change to your desired hover bottom border color */
+}
+
+.hello {
+    padding-top: 30px;
+    padding-left: 100px;
+    gap:20px;
+    padding-right: 20px;
+    flex-direction: row;
+    display:flex;
+}
+.bb {
+    height: 35px;
+    width: 90px;
+    border-radius: 7px;
+    font-size: large;
+  
+    background-color: white; /* Change to white */
+    border: 2px solid white; /* Add a white border */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.book-image
+{
+   right:0;
+   top:0;
+    position:fixed;
+    display:flex;
+     width: 700px;
+     height: 100vh;
+     margin:0;
+  
+     
+}
+
+.bb {
+    height: 35px;
+    width: 90px;
+    background-color: white;
+    border: 2px solid white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: background-color 0.3s, color 0.3s; /* Add transition for smooth effect */
+}
+
+.bb:hover {
+    background-color:blue; /* Change to your desired hover color */
+    color: white; /* Change to your desired hover text color */
+}
+.left
+{
+  
+    left:60px;
+    position:fixed;
+    display:flex;
+}
+h3{
+    padding-left:60px;
+}
