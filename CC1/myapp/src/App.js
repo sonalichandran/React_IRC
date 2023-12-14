@@ -19,6 +19,7 @@ function App() {
    
     <Routes><Route path="/Register" element={<Register/>}/></Routes>
     <Routes><Route path="/Login" element={<Login/>}/></Routes> 
+    
 
     {/* <div className="content1">
             <h1>ChApTeRvIsTa

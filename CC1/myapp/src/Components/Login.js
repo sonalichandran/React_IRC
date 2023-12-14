@@ -1,5 +1,7 @@
 import '../Assets/Css/Login.css'
 import img1 from '../Assets/Image/book4.jpeg'
+import {Link} from 'react-router-dom'
+import Home from '../Components/Home'
 function Login()
 {
     return(
@@ -26,7 +28,8 @@ function Login()
                     <button type="submit" className="bb">
                         LOGIN
                     </button>
-            <button className="back"> Back</button>
+         
+            <Link to='/Home'><button className="back">Back</button></Link>
             </div>
                 </div>
                     
